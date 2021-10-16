@@ -1,0 +1,44 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+    background-image: url(/images/flag\ of\ uganda.jpeg);
+    background-size: cover;
+    /*opacity: 0.6;*/
+}
+h1{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(16, 241, 8, 0.979);
+    text-align: center;
+}
+h4{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    color: blue;
+}
+.container{
+    width:80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 7px;
+    justify-items: center;
+    justify-content: center;
+    /*align-items: center;
+    align-content: center;*/
+}
+.card{
+    background-color: rgba(168, 161, 86, 0.507);
+    color: black;
+    font-weight: bold;
+    padding: 0px 5px 5px 7px;
+}
+button:hover{
+    width: 60%;
+    background-color: rgba(225, 108,134, .9);
+    border: none;
+    border-radius: 8px;
+}
+
